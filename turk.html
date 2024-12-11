@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="turk.css">
+</head>
+<body>
+    <header>
+        <div class="progress-bar">
+            <span class="step active">1. RECHERCHE</span>
+            <span class="step active">2. SÉLECTION</span>
+            <span class="step active">3. DEVIS</span>
+            <span class="step">4. PAIEMENT</span>
+            <span class="step">5. CONFIRMATION</span>
+        </div>
+    </header>
+    <main>
+        <div class="details">
+            <h1>Séjour Combiné Istanbul & Bodrum 07 Jours / 06 Nuits</h1>
+            <p class="price">À partir de <span class="price-value">3250 TTC</span></p>
+            <p><strong>7 jour(s) à <a href="#">Bodrum, Turquie</a></strong></p>
+            <p><strong>Disponible tous les :</strong> Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche.</p>
+            <div class="booking">
+                <label for="start">De :</label>
+                <input type="date" id="start" name="start" value="2024-12-07">
+                <label for="end">À :</label>
+                <input type="date" id="end" name="end" value="2024-12-13">
+                <label for="days">Soit :</label>
+                <input type="number" id="days" name="days" value="7" readonly>
+                <label for="person">Personne :</label>
+                <select id="person" name="person">
+                    <option value="1">1</option>*
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="reserve">RÉSERVER</button>
+            </div>
+        </div>
+    </main> 
+    <div class="gallery">
+        <div class="main-image">
+           <center> <img id="current-image" src="ressources projet/istanbul.jpg" alt="Image principale"></center> 
+            <span class="counter">1/11</span>
+        </div>
+        <div class="thumbnails">
+            <center> <table> <tr>
+           <td> <img src="ressources projet/bodrum4.jpg" alt="Thumbnail 1" class="active" onclick="changeImage('image1.jpg', 1)"></td>
+           
+           <td> <img src="ressources projet/bodrum3.jpg" alt="Thumbnail 3" onclick="changeImage('image3.jpg', 3)"></td>
+           <td><img src="ressources projet/bodrum.jpg" alt="Thumbnail 4" onclick="changeImage('image4.jpg', 4)"></td>
+           <td><img src="ressources projet/istanbul3.jpg" alt="Thumbnail 5" onclick="changeImage('image5.jpg', 5)"></td>
+    </tr> </table></center>
+</td>
+            <!-- Ajoutez d'autres miniatures ici -->
+        </div>
+    </div>
+    <h1> Istanbul & Bodrum 
+
+        07 Jours / 06 Nuits</h1>
+        <p>stanbul : Toute l'année, elle charme les visiteurs avec son centre historique, ses mosquées et autres monuments byzantins, ses anciennes citernes souterraines et ses croisières sur le Bosphore. Mais ses habitants savent aussi faire la fête. Il n'y a qu'à mettre un pied dans les rues du quartier de Taksim pour s'en rendre compte. </p>
+<p>Bodrum : est un peu le Saint-Tropez’ turc : boutiques à la mode, yachts en bois, riches stambouliotes et touristes anglais, français, néerlandais, allemands… la ville est néanmoins attachante car ici le béton n’a pas conquis la côte. Bodrum est dominée par le château de Saint-Pierre qui abrite un musée et offre une vue superbe sur la ville. 
+
+</p>
+<p>Tarif du package (à partir de) :</p>
+<p>Par personne dans une chambre double : 3250 TTC</p>
+<p>Le forfait de base comprend :</p>
+<p>- Le billet d’avion Tunis / Istanbul / Tunis sur un vol régulier. </p>
+
+    <p>- Le Vol Interne Istanbul/Bodrum/Istanbul.</p>
+    
+        <p>- Le transfert Aéroport / Hôtel / Aéroport à Istanbul </p>
+    
+            <p>- 04 Nuits à Bodrum à l’hôtel Swisshotel Resort Bodrum Beach 5* ou similaire en LPD.</p>
+    
+                <p>- 02 nuits à Istanbul à l’hôtel Occidental Taksim Taksim 4* ou similaire en LPD.</p>
+    
+                    <p>(Ce prix a été calculé selon les tarifs des billets et de l'hébergement en basse saison et peut varier selon les périodes choisies)</p>
+
+
+
+
+    </body>
+</html>

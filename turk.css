@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header .progress-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+header .step {
+    color: #aaa;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header .step.active {
+    color: black;
+}
+
+.details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.details .price {
+    font-size: 1.2rem;
+    color: red;
+}
+
+.details .price-value {
+    font-weight: bold;
+}
+
+.details a {
+    color: blue;
+    text-decoration: none;
+}
+
+.details a:hover {
+    text-decoration: underline;
+}
+
+.booking {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.booking label {
+    font-weight: bold;
+}
+
+.booking input,
+.booking select {
+    padding: 5px;
+    font-size: 0.85rem;
+}
+
+button.reserve {
+    background-color: red;
+    color: white;
+    border: navy;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button.reserve:hover {
+    background-color: darkred;
+}
+.hotel-image{
+    position: center;
+}
+#thumbnails{
+    align-items: center;
+}
